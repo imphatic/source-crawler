@@ -16,8 +16,16 @@ class Styles:
         },
 
         'entry': {
-            'width': 20,
-            'bg': 'white'
+            'width': 30,
+            'bg': colors['background'],
+            'fg': colors['foreground']
+        },
+
+        'text': {
+            'height': 20,
+            'width': 60,
+            'bg': colors['background'],
+            'fg': colors['foreground']
         }
     }
 
